@@ -10,21 +10,11 @@
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/webGL PC.json", {onProgress: UnityProgress});
     </script>
-    <style>
-      #unityContainer {
-        width: 600px;
-        height: 300px;
-        background-color: #45d169;
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        transform: rotate(90deg);
-      }
-    </style>
   </head>
   <body>
     <div class="webgl-content">
-      <div id="unityContainer" ></div>      
+      <div id="unityContainer" style="width: 1200px; height: 700px"></div>      
     </div>
   </body>
 </html>
+
